@@ -86,17 +86,6 @@
   </properties>
 
   <dependencies>
-    <dependency>
-      <groupId>org.connid</groupId>
-      <artifactId>connid-framework</artifactId>
-      <version>${base.version}</version>
-    </dependency>
-
-    <dependency>
-      <groupId>org.connid</groupId>
-      <artifactId>connid-framework-internal</artifactId>
-      <version>${base.version}</version>
-    </dependency>
     <!-- SSH -->
     <dependency>
       <groupId>com.jcraft</groupId>
@@ -119,6 +108,16 @@
       <scope>test</scope>
     </dependency>
     <!-- TEST -->
+    <dependency>
+      <groupId>net.tirasa.connid</groupId>
+      <artifactId>connector-framework</artifactId>
+      <version>1.4.2.0-SNAPSHOT</version>
+    </dependency>
+    <dependency>
+      <groupId>net.tirasa.connid</groupId>
+      <artifactId>connector-framework-internal</artifactId>
+      <version>1.4.2.0-SNAPSHOT</version>
+    </dependency>
   </dependencies>
     
   <profiles>
